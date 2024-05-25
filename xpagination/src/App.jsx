@@ -1,13 +1,13 @@
 import { useState } from 'react'
+import Pagination from "./Components/Pagination"
 
-import './App.css'
 
 function App() {
   
 
   return (
     <>
-      Xpagination 
+      <Pagination /> 
     </>
   )
 }
