@@ -7,7 +7,7 @@ function Pagination() {
 const [data, setData] = useState([]);
 const [currentPage,setCurrentPage]=useState(1);
 const [recordPerPage , setRecordPerPage]=useState(10);
-const [indexOfLastrecord, setIndexOfLastrecord]=currentPage*recordPerPage;
+const [indexOfLastrecord, setIndexOfLastrecord]=currentPage*recordPerPage();
 const [indexOfFirstrecord, setIndexOfFirstRecord]=indexOfLastrecord-recordPerPage   
 
 
