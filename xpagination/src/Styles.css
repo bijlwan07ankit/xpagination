@@ -1,0 +1,46 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-bottom: 2px solid rgb(40, 235, 111);
+  }
+  
+  .main-col {
+    background-color: rgb(40, 235, 111);
+  }
+  
+  .BtnDiv {
+    position: fixed;
+    bottom: 2px;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    background-color: rgb(40, 235, 111);
+    border-radius: 6px;
+    margin: 10px;
+    height: 25px;
+    cursor: pointer;
+  }
+  
+  .page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 25px;
+    border-radius: 8px;
+    background-color: rgb(40, 235, 111);
+  }
+  
+  th {
+    border-bottom: 1px solid grey;
+    padding: 11px;
+  }
+  
